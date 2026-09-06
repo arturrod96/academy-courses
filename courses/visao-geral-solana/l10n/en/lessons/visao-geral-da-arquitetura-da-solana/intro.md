@@ -50,7 +50,7 @@ Keep the distinction between general blockchain patterns and Solana-specific cho
 
 Operationally, these goals influence node roles and topology: the network expects leaders to produce ordered entries quickly, validators to execute aggressively and vote frequently, and RPC nodes to respond to client reads and writes with low-latency snapshots. You'll see those roles more closely in the next lesson, but for now remember the design chain: goals -> mechanisms -> operational consequences. That chain is the simplest way to predict how a new feature or load pattern will affect the system.
 
-![Solana's Architectural Goals](assets/v01-four-architectural-goals.png)
+![Solana's Architectural Goals](assets/v01-objetivos-arquitetonicos.webp)
 
 ---
 
@@ -76,7 +76,7 @@ Use this mental model when you analyze performance or debug behavior: ask which 
 | Quality Control & Joining | Validate, vote, and resolve forks | Validator voting and fork-choice logic |
 | Packaging | Mark finalized outputs | Finality markers and confirmed ledger state |
 
-![Assembly-Line Mental Model](assets/v02-assembly-line-flow.png)
+![Assembly-Line Mental Model](assets/v02-modelo-linha-de-montagem.webp)
 
 ---
 
@@ -98,7 +98,7 @@ Finalization (application-visible stability): after sufficient voting weight and
 
 Why this workflow matters in practice: when you design clients or programs, the stage at which you expect confirmation determines how you handle retry logic, idempotency, and state observation. For example, if you assume finality immediately after submission, you may double-submit conflicting transactions; instead, design for the observed latency between submission and finalization and implement idempotency or conflict detection accordingly. Understanding the lifecycle also helps you pick the right integration points for monitoring, debugging, and performance tuning.
 
-![Transaction Lifecycle](assets/v03-transaction-lifecycle-flow.png)
+![Transaction Lifecycle](assets/v03-ciclo-de-vida-da-transacao.webp)
 
 ---
 

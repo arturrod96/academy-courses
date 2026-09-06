@@ -56,7 +56,7 @@ RPC nodes and client SDKs: RPC nodes expose JSON-RPC endpoints that let you subm
 
 Understanding these components in layered terms clarifies who does what and where responsibilities lie. For example, when you see a slow response from an RPC, you can determine whether the bottleneck is the node, the network, or the indexer pipeline. When you design a dApp, you pick which layers you control (programs, front end) and which you rely on (indexers, wallet providers). That mapping from responsibility to touchpoint is the practical baseline you will use across subsequent lessons.
 
-![Core Components Map](assets/v01-solana-core-components-map.png)
+![Core Components Map](assets/v01-mapa-componentes-centrais-solana.webp)
 
 ---
 
@@ -72,9 +72,9 @@ This model surfaces three practical design rules you will reuse: first, plan acc
 
 Finally, the safe-and-locksmith mental model also helps when debugging or reading transaction traces. When a transaction fails due to an account mismatch or missing signer, treat the failure as a mis-specified safe list or missing key. When execution consumes unexpected compute units, inspect which instructions modified which accounts and whether large account copies or heavy cryptographic operations are involved. Using the metaphor makes it faster to map runtime errors to design fixes.
 
-![Accounts & Programs Mental Model](assets/v02-accounts-programs-mental-model.png)
+![Accounts & Programs Mental Model](assets/v02-programas-vs-contas-impacto-no-design.webp)
 
-![Transaction Lifecycle](assets/v03-transaction-lifecycle-flow.png)
+![Transaction Lifecycle](assets/v03-fluxo-de-transacao-modelo-mental.webp)
 
 ---
 
@@ -90,9 +90,7 @@ Operational considerations: storage for listing accounts consumes rent unless th
 
 Why this mapping matters: by explicitly connecting the marketplace features to ecosystem pieces, you can make concrete choices. For example, choose an indexer provider with fast finality-aware updates if your UI needs near-real-time listings. Choose a wallet integration that supports the signing UX you desire (pop-up approval, mobile deep link). Decide whether to host your own RPC for reliability or rely on a managed provider based on expected load and access patterns. This example shows how terminology and component roles shape practical architecture decisions you will face when building on Solana.
 
-![Marketplace dApp Mapping](assets/v04-marketplace-ecosystem-map.png)
-
-![Operational Challenges & Takeaway](assets/v05-operational-challenges-and-takeaway.png)
+![Marketplace dApp Mapping](assets/v04-marketplace-on-chain-vs-off-chain.webp)
 
 ---
 

@@ -55,6 +55,10 @@ Por fim, priorize a concisão: uma seção histórica do capstone não é uma hi
 
 ![Linha do Tempo: Afirmações e Evidências](assets/v01-linha-do-tempo-afirmacoes-e-evidencias.webp)
 
+![Do Marco à Afirmação](assets/v04-do-marco-a-afirmacao.webp)
+
+![Campos Mínimos por Marco](assets/v05-campos-minimos-por-marco.webp)
+
 ## Como Isso Se Manifesta na Prática: Uma Síntese Trabalhada
 
 Imagine que você tem os seguintes entregáveis brutos das lições anteriores: uma matriz de priorização de evidências completa, uma pasta de fontes primárias coletadas (notas de lançamento, posts oficiais do blog, o whitepaper) e um esboço narrativo estruturado que nomeia sete marcos candidatos. Sua tarefa é converter esses artefatos em um resumo histórico de 500–800 palavras que seja citado por fontes e conecte pelo menos dois marcos a escolhas arquiteturais. Os passos abaixo são as ações exatas que você deve executar, com resultados esperados para cada passo.

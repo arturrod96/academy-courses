@@ -87,7 +87,7 @@ Line-by-line explanation:
 
 Why this matters: when an outage begins, knowing which event types spike tells you whether you are looking at network dropouts, RPC backpressure, runtime panics, or garbage-collection stalls. This code is intentionally small: the first practical step in many incident responses is to quantify symptoms before proposing a fix.
 
-![Log Analyzer Flow](assets/v01-log-analyzer-flow.png)
+![Log Analyzer Flow](assets/v01-incident-symptoms.webp)
 
 ---
 
@@ -111,7 +111,7 @@ Engineers often combine options: apply quick throttle to stabilize the network w
 
 Why this example is pedagogically useful: it connects symptoms (what you see) to mechanistic causes (what is happening in threads, memory, and I/O) and to concrete engineering tradeoffs (short-term mitigation versus long-term fixes). When you review the code or postmortem later, ask: which signals were most informative, what temporary controls were acceptable, and how did that choice reprioritize engineering work going forward?
 
-![Remediation Options & Tradeoffs](assets/v02-remediation-options-tradeoffs.png)
+![Remediation Options & Tradeoffs](assets/v02-mitigation-vs-patch.webp)
 
 ---
 
@@ -135,7 +135,7 @@ Step 7 — Prioritization and resource allocation: finally, place the incident i
 
 This workflow emphasizes measurable checks at each stage: alert thresholds, triage packet completeness, test reproduction, and acceptance criteria. Those checks convert an anecdotal incident into engineering work items, which in turn change long-term priorities from feature growth to platform resilience when incidents are frequent or severe.
 
-![Incident Response Workflow](assets/v03-incident-response-workflow.png)
+![Incident Response Workflow](assets/v03-incident-workflow.webp)
 
 ---
 

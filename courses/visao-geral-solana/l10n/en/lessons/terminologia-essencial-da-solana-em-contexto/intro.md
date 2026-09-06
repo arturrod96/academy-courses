@@ -46,7 +46,7 @@ Mechanically, validators run the runtime that executes programs and updates acco
 
 Implication: when a guide tells you to "ask a validator to confirm", it usually means consult the state produced by consensus; when it tells you to "call the RPC", it references the node's API. This distinction matters when interpreting error messages. For example, a transaction rejected by an RPC node with a preflight error may still be acceptable to a differently configured node if that node offers different preflight simulation settings. Understanding these roles means you will better parse operational instructions and identify whether an instruction refers to consensus state (validator) or a service interface (node/RPC) that clients connect to.
 
-![Operator, Validators, Nodes, Clients](assets/v01-ecosystem-validator-node-client-map.png)
+![Operator, Validators, Nodes, Clients](assets/v01-validador-no-e-cliente-mapa-rapido.webp)
 
 ---
 
@@ -68,7 +68,7 @@ Why this matters in practice: when you read a Solana doc that says "provide writ
 
 Finally, this metaphor clarifies logs and returned errors. If a transaction fails with a "Program failed to complete" message, think of a machine jam: the clerk stopped processing when encountering an unexpected envelope format or missing postage. Knowing which account the machine was operating on (from logs or explorer trace) directs you to the exact mailbox and rule set to inspect next.
 
-![Post Office Metaphor](assets/v02-post-office-metaphor-four-pillars.png)
+![Post Office Metaphor](assets/v02-metafora-do-correio.webp)
 
 ---
 
@@ -88,7 +88,7 @@ Step 4 — Outcome and explorer view: After the transaction is processed, explor
 
 Implication: in documentation, when instructions list "preconditions" like "the receiver account must be initialized" they are telling you which mailboxes must already exist and be rent-exempt before the clerk handles the envelope. Recognizing each step and where specific terms appear will let you translate short protocol notes into concrete checks when you later inspect real transactions or read contract READMEs.
 
-![Token Transfer Walkthrough](assets/v03-token-transfer-process-flow.png)
+![Token Transfer Walkthrough](assets/v03-fluxo-conceitual-transferencia-spl.webp)
 
 ---
 

@@ -48,7 +48,7 @@ Confirmation and finalization are distinct outcomes. Confirmation refers to the 
 
 Across these stages, latency sources include network propagation to nodes and to the leader, signature verification time, queuing delays on leaders under high load, and execution time inside the runtime. Throughput is shaped by leader slot duration, block packing policies, the efficiency of forward propagation, and conflict rates among transactions. Understanding each stage’s responsibilities clarifies which logs and metrics to inspect when a transaction is slow, rejected, or repeatedly failing.
 
-![Intake to Confirmation Flow](assets/v01-intake-to-confirmation-flow.png)
+![Intake to Confirmation Flow](assets/v01-pipeline-submissao-e-validacao.webp)
 
 ---
 
@@ -64,7 +64,7 @@ After execution, the leader broadcasts the block and the validator set votes on 
 
 Finally, latency and throughput considerations surface in repeated traces. Under low contention and light load, the end-to-end latency from submission to one confirmation may be tens to hundreds of milliseconds; under heavy load, queuing delays on leaders and repeated conflict retries inflate latency and reduce effective throughput. Concrete debugging steps you will take include checking intake rejection messages, tracing inclusion in a slot via `getSignatureStatuses`, inspecting execution logs via `getTransaction`, and watching confirmation counts. These steps map directly to the verification checkpoints we will include in the comparison table artifact so you can reason about where a problem originated.
 
-![What You Observe: Submission Outcomes](assets/v02-observable-outcomes-cause-effect.png)
+![What You Observe: Submission Outcomes](assets/v02-rastro-concreto-rpc-a-confirmacao.webp)
 
 ---
 
@@ -87,7 +87,7 @@ Use the table as a checklist when troubleshooting. For example, if your transact
 
 As an exercise, attempt to annotate each table row with expected latencies under light and heavy load. Typical light-load artifacts include sub-second intake and leader inclusion within one or two slots. Under heavy load, intake may still be fast for valid transactions, but queuing at leaders and execution retries increase time-to-confirmation. That annotation trains you to predict where bottlenecks appear and which checkpoint data to collect for post-mortem analysis.
 
-![Four Key Checkpoints](assets/v03-four-key-checkpoints.png)
+![Four Key Checkpoints](assets/v03-estagios-componentes-e-checkpoints.webp)
 
 ---
 

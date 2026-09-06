@@ -47,8 +47,6 @@ Why this metaphor helps you reason about boundaries and failure modes: if a musi
 
 Use this mental model as you form annotated notes: for each component ask, 'Is this a score-holder, an interpreter, a messenger, or a stage manager?' That classification quickly narrows down what interfaces the component needs and what failure modes to watch. As you prepare to trace a transaction in the next lesson, hold this metaphor in mind: you will see the conductor order, the musicians interpret, the messenger relay, and the stage manager snapshot the state.
 
-![Leader Failure → Resync Boundary](assets/v01-leader-failure-and-resync.png)
-
 ---
 
 ## Core Runtime Components and Responsibilities
@@ -73,9 +71,9 @@ The BPF execution runtime is deterministic and sandboxed. Its inputs are a trans
 
 Why this matters in practice: knowing these boundaries helps you predict where performance bottlenecks appear and where to instrument when debugging. For example, slow disk writes in the accounts DB show up as delayed commitment; excessive gossip chatter increases CPU and network pressure without improving finality. When you map each component in your notes, also note its dominant resource: CPU, memory, disk, or network. That mapping will be directly useful in operations, performance tuning, and in understanding why validators behave differently under load.
 
-![Core Runtime Components Map](assets/v02-runtime-ecosystem-map.png)
+![Core Runtime Components Map](assets/v02-quatro-componentes-chave-runtime.webp)
 
-![Four Runtime Responsibilities](assets/v03-four-runtime-pillars.png)
+![Four Runtime Responsibilities](assets/v01-mapa-metafora-componentes.webp)
 
 ---
 
@@ -95,7 +93,7 @@ Message routing patterns summarized: gossip carries small, authoritative metadat
 
 Why this workflow view matters: when you later trace a single transaction through the system, you will refer to these phases to decide where to look for delays or mismatches. Annotate your notes with expected component interactions per phase and with example messages (e.g., 'client -> RPC -> leader pool -> execution -> accounts DB write -> shred propagation'). That sequence is the skeleton you will embellish in the next lesson's transaction flow diagrams.
 
-![Validator Lifecycle & Message Flow](assets/v04-validator-lifecycle-flow.png)
+![Validator Lifecycle & Message Flow](assets/v03-ciclo-de-vida-do-validador.webp)
 
 ---
 

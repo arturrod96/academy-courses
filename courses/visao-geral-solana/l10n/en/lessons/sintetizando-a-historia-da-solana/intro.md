@@ -57,11 +57,11 @@ When you convert the table into prose, follow chronological order and use the ev
 
 Finally, prioritize concision: a capstone history section is not a comprehensive history. Choose the milestones that are most explanatory for your architectural narrative and omit peripheral events unless they illuminate a specific technical theme. If you keep more than eight candidate events, create a short "also notable" list in your notes but do not force every item into the 500–800 word summary.
 
-![From Milestone to Claim](assets/v01-claim-formation-and-evidence-labels.png)
+![From Milestone to Claim](assets/v04-do-marco-a-afirmacao.webp)
 
-![Minimal Timeline — Architectural Links](assets/v02-minimal-timeline-with-architectural-link.png)
+![Minimal Timeline — Architectural Links](assets/v01-linha-do-tempo-afirmacoes-e-evidencias.webp)
 
-![Minimum Fields Per Milestone](assets/v03-milestone-minimum-fields.png)
+![Minimum Fields Per Milestone](assets/v05-campos-minimos-por-marco.webp)
 
 ---
 
@@ -85,7 +85,7 @@ To make this concrete, here is an illustrative paragraph you can adapt for your 
 
 Use that template: event statement, citation, mechanism explanation, architectural implication. After completing the draft, annotate any statements that rely on weaker evidence so that peer reviewers know where to ask for more support. That annotated draft is the artifact you will submit for the capstone historical section and the starting point for peer review against the success criteria.
 
-![Worked Synthesis Steps](assets/v04-worked-synthesis-step-by-step.png)
+![Worked Synthesis Steps](assets/v02-fluxo-transformando-entregaveis-em-sintese.webp)
 
 ---
 
@@ -103,7 +103,7 @@ Use the Storyline Scaffold to handle uncertainty. When evidence is inconclusive,
 
 Finally, remember that a scaffold is designed to be temporary: the final draft should read fluidly without the scaffold structure visible to the reader. The scaffold is a production tool that keeps you focused on the three distinct tasks required to produce an evidence-based, architecture-linked historical summary.
 
-![Storyline Scaffold Model](assets/v05-storyline-scaffold-mental-model.png)
+![Storyline Scaffold Model](assets/v03-arcabouco-da-linha-narrativa.webp)
 
 ---
 

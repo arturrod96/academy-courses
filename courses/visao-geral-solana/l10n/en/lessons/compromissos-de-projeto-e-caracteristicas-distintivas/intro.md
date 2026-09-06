@@ -46,7 +46,7 @@ The short table below summarizes how a choice to favor throughput manifests acro
 
 You should be able to name each row and explain how the mechanism (what) leads to both performance benefits (how) and constrained decentralization (why that matters). In practice, these tradeoffs explain why a network that achieves thousands of transactions per second can also have concentrated validator requirements and why operators often measure both TPS and accessible validator participation when assessing decentralization.
 
-![How throughput choices cause decentralization effects](assets/v01-tradeoffs-cause-effect.png)
+![How throughput choices cause decentralization effects](assets/v01-throughput-vs-descentralizacao.webp)
 
 ---
 
@@ -66,7 +66,7 @@ Here is the high-level workflow you should be able to trace and explain when rea
 
 Each stage depends on preceding hardware and software assumptions. For example, the prefetch stage assumes fast random reads from local storage; if reads are slow, parallel cores wait idle or execute less work, lowering effective throughput. Likewise, network jitter increases effective latency for propagation and reduces the leader's ability to maintain fast sequencing. These dependencies create operational levers: you can improve throughput by reducing per-transaction IO (optimize data layout), increase concurrency with careful account sharding, or reduce tail latency by prioritizing low-jitter network hardware. When you write your synthesis notes, map each workflow stage to a potential bottleneck and to one operational mitigation. That mapping helps you translate architecture-level tradeoffs into actionable monitoring and maintenance steps.
 
-![Throughput workflow pipeline](assets/v02-throughput-workflow-process.png)
+![Throughput workflow pipeline](assets/v02-pipeline-throughput-e-hardware.webp)
 
 ---
 
@@ -118,7 +118,7 @@ Line-by-line and block explanation:
 
 How to use this example when you analyze tradeoffs: imagine replacing the global `Mutex` with per-account locks and adding a deterministic ordering where transactions acquire locks in account ID order. You will reason about how that change increases parallelism but adds complexity to lock management and increases per-transaction bookkeeping. That is the heart of the hardware–software coordination tradeoff: you gain throughput, but only if memory access patterns, thread scheduling, and IO subsystems align with the software assumptions.
 
-![Locking: coarse vs fine-grained](assets/v03-locks-comparison-coarse-vs-fine.png)
+![Locking: coarse vs fine-grained](assets/v03-travas-conflitos-retries.webp)
 
 ---
 

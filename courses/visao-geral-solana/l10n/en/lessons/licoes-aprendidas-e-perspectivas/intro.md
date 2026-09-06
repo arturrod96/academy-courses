@@ -49,9 +49,9 @@ Applying the model to a concrete early Solana shift clarifies why outcomes unfol
 
 Finally, use the model to evaluate corrective actions. If the ecosystem shows signs of fragility, interventions can be cast as environmental adjustments: add redundancy (introduce slower but more numerous species), simplify habitat (reduce operator complexity), or improve nutrient distribution (better RPC decentralization). The model keeps you focused on mechanisms—what changes the environment, how species respond, and which metrics capture the result—so you avoid purely rhetorical explanations about "community" or "vision." This is the kind of disciplined thinking you'll apply when comparing Solana's arc with other protocols.
 
-![Architecture-as-Ecosystem Map](assets/v01-architecture-ecosystem-map.png)
+![Architecture-as-Ecosystem Map](assets/v01-modelo-mental-ecossistema-map.webp)
 
-![Diagnostic Routine](assets/v02-diagnostic-routine-process.png)
+![Diagnostic Routine](assets/v02-rotina-diagnostica-ecossistema.webp)
 
 ---
 
@@ -78,7 +78,7 @@ Use the table below as a quick reference for these core concepts and signals.
 
 Why this matters in practice: you will use these signals to prioritize monitoring and to form evidence-backed comparisons. For example, if you are evaluating whether an observed outage reflects an isolated bug or a systemic fragility, check the emergency patch cadence and validator churn: a single bug with a fast, one-off patch points to implementation quality, while repeated outages with similar root causes and increasing centralization point to architectural stress. That distinction changes how you investigate further and what fixes you consider plausible.
 
-![Core Concepts & Signals](assets/v03-core-concepts-four-pillars.png)
+![Core Concepts & Signals](assets/v03-quatro-conceitos-e-sinais.webp)
 
 ---
 
@@ -96,7 +96,7 @@ To evaluate historical narratives critically, adopt this short checklist when yo
 
 Applying this comparative frame readies you for the upcoming module on Bitcoin. Bitcoin's history emphasizes conservative change and robust economic incentives; comparing it with Solana's early approach will illustrate how different priorities produce different operator ecologies, upgrade patterns, and application landscapes. That contrast is useful because it anchors your intuition about how design priorities map to long-term network behavior.
 
-![Comparison: Solana vs Other Networks](assets/v04-solana-vs-other-networks-comparison.png)
+![Comparison: Solana vs Other Networks](assets/v04-comparacao-outras-redes.webp)
 
 ---
 

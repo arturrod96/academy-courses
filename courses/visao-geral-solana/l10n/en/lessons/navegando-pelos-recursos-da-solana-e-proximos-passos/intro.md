@@ -47,9 +47,9 @@ To operationalize the map, we introduce three decision rules you will use repeat
 
 Apply the map to terminology as you encounter it. When you read a project's glossary entry or README, annotate the resource layer it represents and note what evidence would confirm the claim. Over time this habit trains you to read documentation not as finished truth but as one layer of evidence in a broader verification process, which is precisely the mindset you will use when preparing comparisons in later modules.
 
-![The Four Resource Layers](assets/v01-resource-map-four-layers.png)
+![The Four Resource Layers](assets/v01-mapa-de-recursos-em-camadas.webp)
 
-![Decision Rules for Trust](assets/v02-decision-rules-and-takeaway.png)
+![Decision Rules for Trust](assets/v02-mapa-de-recursos-por-camada.webp)
 
 ---
 
@@ -78,7 +78,7 @@ Use the following table as a compact reference you can reproduce when taking not
 
 Apply this workflow consistently when you curate resources for a comparative matrix. The matrix rows are projects and the columns are the resource signals; this produces structured input for later analysis of incentives or architecture tradeoffs.
 
-![Practical Scouting Workflow](assets/v03-scouting-workflow-checklist.png)
+![Practical Scouting Workflow](assets/v03-checklist-pratico-de-navegacao.webp)
 
 ---
 
@@ -96,7 +96,7 @@ Finally, inspect community signals: look for an active Discord or forum thread w
 
 This concrete example shows how terminology, repository evidence, docs, and on-chain traces combine into a concise, comparable summary. When you repeat this process across multiple projects you'll have standardized inputs that feed directly into the comparative work required by the next modules.
 
-![Claims vs Evidence](assets/v04-claims-vs-evidence-comparison.png)
+![Claims vs Evidence](assets/v04-de-sinal-a-inferencia.webp)
 
 ---
 

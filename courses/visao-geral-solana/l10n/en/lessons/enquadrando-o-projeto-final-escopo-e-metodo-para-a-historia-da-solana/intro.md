@@ -50,9 +50,9 @@ Concretely, when you place a milestone like "implementation of a runtime optimiz
 
 This mental model also guides prioritization. If you have limited time, choose timeline items that connect to multiple nodes on the architectural map — those are high-leverage events that shaped several subsystems. Conversely, isolate peripheral events (for example, small tooling changes documented only in single repo issues) as "appendix candidates" that support depth without distracting the main narrative. Thinking in parallel maps converts a potentially diffuse body of evidence into a structured narrative scaffold you can trace and defend.
 
-![Core Architecture Nodes](assets/v01-architecture-map-nodes.png)
+![Core Architecture Nodes](assets/v04-nos-da-arquitetura-principal.webp)
 
-![Metadata & Tagging](assets/v02-metadata-and-tagging-pillars.png)
+![Metadata & Tagging](assets/v05-metadados-e-marcacao.webp)
 
 ---
 
@@ -81,7 +81,7 @@ Why this matters in practice: a documented workflow prevents you from retrofitti
 
 Finally, save your metadata and maps in a portable format (for example, a CSV or structured notes file) so that you, reviewers, or future maintainers can rerun the validation phase if new sources appear. The workflow's structure reduces cognitive load and keeps the report focused on substantiated claims rather than speculation.
 
-![Research → Source → Structure → Validate](assets/v03-research-source-structure-validate-workf.png)
+![Research → Source → Structure → Validate](assets/v02-fluxo-pesquisar-fonte-estruturar-validar.webp)
 
 ---
 
@@ -101,7 +101,7 @@ Step 5: Validate and flag ambiguities. Run the validation exit criteria: ensure 
 
 Why this matters: this example shows how you convert source signals into a defensible architecture section rather than an opinion piece. By tying annotations in diagrams to specific artifacts and confidence labels, you make the section useful to both engineers who want technical detail and historians who need traceable evidence. This approach also prepares you for the next lesson, where you will synthesize the selected timeline items into an integrated narrative with explicit citations and corroboration statements.
 
-![Event → Architectural Outcome](assets/v04-event-to-architectural-outcome.png)
+![Event → Architectural Outcome](assets/v06-evento-para-resultado-arquitetural.webp)
 
 ---
 

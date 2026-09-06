@@ -48,7 +48,7 @@ Translate the metaphor into three concrete components you should hold in mind. F
 
 Use this framework when you read about Solana's innovations such as a verifiable delay or timestamp function and optimistic execution. The model is not perfect — it abstracts away network-level variance and attacker models — but it clarifies the intention behind design choices. You will apply this way of thinking in later lessons to predict which classes of applications will fit Solana's architecture and which will bump against its assumptions. Keep asking: how does a claimed improvement change the clockwork? Does it add extra guarantees, or does it depend on yet-unproven synchrony assumptions? That question will guide your technical reading and practical evaluation in subsequent lessons.
 
-![Mental Model Components](assets/v01-mental-model-ledger-clockwork-map.png)
+![Mental Model Components](assets/v01-clockwork-ledger.webp)
 
 ---
 
@@ -71,7 +71,7 @@ Now examine the public milestones. The project released technical write-ups and 
 
 Use this example to anchor later readings: when you encounter a protocol paper or a blog post about performance improvements, map it back to this timeline. Ask which milestone is being updated, which role within the original team drove the change, and which funding mechanism supported the effort. That mapping helps you separate marketing language from substantive technical progress and makes the subsequent lesson on reading whitepapers more practical and testable.
 
-![Early Timeline & Milestones](assets/v02-founding-timeline.png)
+![Early Timeline & Milestones](assets/v02-early-timeline.webp)
 
 ---
 
@@ -87,7 +87,7 @@ Finally, compare governance and ecosystem formation. Bitcoin's early growth was 
 
 Keep this comparison in your toolbox: it lets you translate design descriptions into tangible expectations about performance, risk, and suitable applications. Asking "what problem was the protocol originally trying to solve?" gives you a practical lens for interpreting technical papers, release notes, and roadmap items as you proceed through the course.
 
-![Founding Priorities Compared](assets/v03-compare-solana-vs-bitcoin.png)
+![Founding Priorities Compared](assets/v03-solana-vs-bitcoin.webp)
 
 ---
 

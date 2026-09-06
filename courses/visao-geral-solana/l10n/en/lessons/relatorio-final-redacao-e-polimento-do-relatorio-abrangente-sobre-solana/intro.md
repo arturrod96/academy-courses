@@ -54,9 +54,7 @@ The acceptance criteria define exactly what "done" looks like for this capstone 
 
 Meeting these acceptance criteria means your artifact satisfies the module rubric and is ready for submission. If any item fails, flag it in the cover note and record which sections need further revision.
 
-![Acceptance Criteria — Four Pillars](assets/v01-four-pillars-acceptance-criteria.png)
-
-![Mapping History → Architecture](assets/v02-linkage-map-history-to-architecture.png)
+![Acceptance Criteria — Four Pillars](assets/v01-estrutura-obrigatoria-do-relatorio.webp)
 
 ---
 
@@ -85,7 +83,7 @@ Submission/Demo checklist (attach as final page): a) Executive summary ≤300 wo
 
 If time permits, perform a final polish for tone and clarity: remove passive voice where it weakens causality, replace ambiguous qualifiers with evidence-backed phrasing, and ensure the bibliography entries use consistent punctuation and capitalization. Save a versioned copy and prepare the peer-review packet containing the report, a one-page peer-review guide, and any appendices or raw notes for transparency.
 
-![Three Editing Passes](assets/v03-editing-passes-structural-content-citati.png)
+![Three Editing Passes](assets/v02-fluxo-de-redacao-e-revisao.webp)
 
 ---
 
@@ -107,7 +105,7 @@ Check 6 — Peer-review readiness: ensure the peer-review packet contains the re
 
 Expected checkpoint outputs: a) a signed short review note with pass/fail results for each check, b) the finalized PDF report if all passes succeed, or c) a remediation plan with prioritized fixes if any check fails. When you pass all checks, mark the milestone as complete and upload the document to the submission area defined in the course instructions. If a peer flagged issues, schedule a short revision sprint and re-run this checkpoint after fixes.
 
-![Common Pitfalls & Key Takeaway](assets/v04-common-pitfalls-and-key-takeaway.png)
+![Common Pitfalls & Key Takeaway](assets/v03-checklist-de-verificacao-do-marco.webp)
 
 ---
 

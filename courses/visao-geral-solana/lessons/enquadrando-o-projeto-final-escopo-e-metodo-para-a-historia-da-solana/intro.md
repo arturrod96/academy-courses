@@ -48,6 +48,10 @@ Esse modelo mental também orienta a priorização. Se você tiver tempo limitad
 
 ![Modelo Mental: Linha do Tempo vs Mapa](assets/v01-modelo-mental-linha-do-tempo-vs-mapa.webp)
 
+![Nós da Arquitetura Principal](assets/v04-nos-da-arquitetura-principal.webp)
+
+![Metadados e Marcação](assets/v05-metadados-e-marcacao.webp)
+
 ## Fluxo de Trabalho: Pesquisar, Fonte, Estruturar, Validar
 
 Visão Geral do Processo: Estabeleça um fluxo de trabalho repetível que transforme recursos dispersos em um relatório em capítulos coerente. O fluxo de trabalho tem quatro fases: Research (coletar), Source (catalogar e rotular), Structure (esboçar e mapear) e Validate (corroborar e finalizar). Cada fase contém tarefas concretas e critérios de saída que você pode checar antes de avançar. Recomendamos executar esse fluxo iterativamente: complete uma passagem para temas de alto nível primeiro e depois itere mais profundamente nos capítulos priorizados.
@@ -92,6 +96,8 @@ Passo 5: Validar e sinalizar ambiguidades. Execute os critérios de saída de va
 Por que isso importa: este exemplo mostra como converter sinais de fonte em uma seção de arquitetura defensável em vez de um texto opinativo. Ao vincular anotações em diagramas a artefatos específicos e rótulos de confiança, você torna a seção útil tanto para engenheiros que querem detalhes técnicos quanto para historiadores que precisam de evidência rastreável. Essa abordagem também prepara você para a próxima lição, onde sintetizaremos os itens de linha do tempo selecionados em uma narrativa integrada com citações explícitas e declarações de corroboração.
 
 ![Das Evidências à Narrativa](assets/v03-das-evidencias-a-narrativa.webp)
+
+![Evento para Resultado Arquitetural](assets/v06-evento-para-resultado-arquitetural.webp)
 
 ## Conclusão & Principais Lições
 

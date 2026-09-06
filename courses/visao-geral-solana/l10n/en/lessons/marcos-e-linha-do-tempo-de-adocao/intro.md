@@ -45,7 +45,7 @@ Concretely, this mental model helps you reason about tradeoffs. A foundation-pha
 
 The bridge metaphor also makes it easier to communicate: when you explain early adoption to colleagues, use phase labels rather than vague adjectives. Say "we're in public-open phase because the mainnet beta allowed limited external traffic" instead of "the network is mature now." The phased naming helps you choose appropriate questions: foundation-phase work asks "are the supports correct?" Public-open asks "can outside traffic use the bridge safely?" and ecosystem-expansion asks "do third parties find it worth building lanes?" That clarity is the practical payoff of the mental model.
 
-![Release Phases Flow](assets/v01-release-phases-flow.png)
+![Release Phases Flow](assets/v01-release-stages.webp)
 
 ---
 
@@ -72,7 +72,7 @@ Below is a compact table you can use when annotating an early milestone timeline
 
 When you analyze a real historical milestone, line up the milestone against this table and annotate what changed in metrics and what shifted in priorities. Over time the table will become a living checklist you apply to new releases or ecosystem news, enabling you to separate technical changes from adoption effects. That analytic habit is the practical skill you are building: it converts press releases into testable signals you can observe on-chain or in developer repositories.
 
-![Early Adoption Timeline](assets/v02-early-adoption-timeline.png)
+![Early Adoption Timeline](assets/v02-timeline-milestones.webp)
 
 ---
 
@@ -88,7 +88,7 @@ Both types of milestones matter, but they imply different interventions. If a te
 
 Use this comparison as a quick triage heuristic: classify a milestone, then pick the small set of metrics that are most likely to reveal whether the milestone achieved its intended effect. That targeted approach saves time and makes your assessments both faster and more reliable.
 
-![Technical vs Ecosystem Milestones](assets/v03-technical-vs-ecosystem.png)
+![Technical vs Ecosystem Milestones](assets/v03-technical-vs-ecosystem.webp)
 
 ---
 

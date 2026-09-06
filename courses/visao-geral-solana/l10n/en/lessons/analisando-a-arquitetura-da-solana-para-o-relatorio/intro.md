@@ -61,9 +61,7 @@ When drafting the technical overview, always pair each component description wit
 
 Finally, avoid treating the components as isolated; emphasize the composition: PoH enables Tower BFT to reference time without additional messaging, while Turbine and Gulf Stream together optimize block propagation and transaction distribution. Those joint behaviors are often where tradeoffs appear, and they form useful subsections in the technical overview.
 
-![Design Principles (Four Pillars)](assets/v01-architecture-design-principles.png)
-
-![Core Components Map](assets/v02-core-components-map.png)
+![Design Principles (Four Pillars)](assets/v01-principios-e-componentes-chave.webp)
 
 ---
 
@@ -85,7 +83,7 @@ As a concrete example: take the introduction of PoH. Your mechanism sentence cou
 
 Use this workflow to generate three such mappings; when assembled, those mappings become the backbone of the technical overview section of your report. Each mapping is short, factual, and evidence-linked so the reader can quickly see not only what the architecture does but when and why that choice was made historically.
 
-![Milestones Mapped to Components](assets/v03-milestones-mapping-to-architecture.png)
+![Milestones Mapped to Components](assets/v02-eventos-historicos-decisoes-arquitetonicas.webp)
 
 ---
 
@@ -121,7 +119,7 @@ Line-by-line explanation and how to use the output:
 
 Note: this snippet is designed for evidence gathering only. Do not include wallet keys, signing, or transaction submission in these probes; the goal is read-only validation of current cluster parameters.
 
-![RPC Probe Workflow](assets/v04-rpc-probe-workflow.png)
+![RPC Probe Workflow](assets/v03-sonda-rpc-coletando-evidencias.webp)
 
 ---
 

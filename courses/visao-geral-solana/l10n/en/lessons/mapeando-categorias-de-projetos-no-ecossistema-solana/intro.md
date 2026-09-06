@@ -56,7 +56,7 @@ When you evaluate a project, focus on how it uses core terms. For example, a pro
 
 Indicators of active developer participation are equally tied to these roles. For programs, look for frequent commits to the program repository, clear deploy scripts referencing program IDs, and on-chain evidence of upgrade activity or program interactions. For infrastructure projects, check uptime dashboards, RPC latency reports, and indexer sync status. For wallets and consumer apps, prioritize release notes showing compatibility with the current runtime and explicit test vectors for transaction construction. We will use these category-specific indicators in the worked example that follows.
 
-![Major Project Categories](assets/v01-four-major-project-categories.png)
+![Major Project Categories](assets/v01-categorias-principais-de-projetos.webp)
 
 ---
 
@@ -72,7 +72,7 @@ Example 3 — An NFT marketplace and storefront: Marketplaces combine an off-cha
 
 Across these examples you will use the same classifier rules: where a project documents program IDs and account schemas, treat it as an on-chain program or protocol; where the documentation prioritizes API surface and data sync guarantees, treat it as infrastructure; where the emphasis is on signing flows, user keys, and UX, treat it as a client or wallet integration. These mappings are practical: they let you decide where to look for authoritative verification (on-chain explorers for programs, status pages for infrastructure, release notes and SDKs for wallets and clients).
 
-![How to Classify a Project](assets/v02-process-to-classify-a-project.png)
+![How to Classify a Project](assets/v02-exemplos-concretos-de-projetos.webp)
 
 ---
 
@@ -88,7 +88,7 @@ Using the metaphor also helps when evaluating interdependency risks. If a market
 
 Finally, the city model helps you prioritize signals of developer health. Frequent, readable commits to a program repository are like visible ongoing construction at a factory; uptime dashboards are like public notices at libraries; active SDK releases are like storefront window updates indicating compatibility with recent program changes. These analogies give you a quick checklist for classifying and validating projects in practical terms.
 
-![City Metaphor: Interdependencies](assets/v03-city-metaphor-ecosystem-map.png)
+![City Metaphor: Interdependencies](assets/v03-metafora-da-cidade-dependencias-e-sinais.webp)
 
 ---
 
